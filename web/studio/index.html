@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FAL Video Studio</title>
+    <link rel="stylesheet" href="/studio/styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="mark">FV</div>
+          <div>
+            <h1>FAL Video Studio</h1>
+            <p>Local project control panel</p>
+          </div>
+        </div>
+
+        <button id="refreshProjects" class="primary">Refresh</button>
+        <div id="projectList" class="project-list"></div>
+      </aside>
+
+      <main class="workspace">
+        <section class="band header-band">
+          <div>
+            <p class="eyebrow">Pipeline</p>
+            <h2>Checklist-first video generation</h2>
+          </div>
+          <div id="health" class="health">Checking FAL...</div>
+        </section>
+
+        <section class="band">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">Fast Start</p>
+              <h3>Create From One Thought</h3>
+            </div>
+          </div>
+          <form id="thoughtForm" class="thought-form">
+            <label class="wide">
+              Video thought
+              <textarea name="thought">A 20 second animated story about a tiny robot baker learning teamwork in a cozy bakery.</textarea>
+            </label>
+            <label>
+              Type
+              <select name="video_type">
+                <option value="auto">Auto detect</option>
+                <option value="product_promo">Product / promo</option>
+                <option value="app_demo">App demo</option>
+                <option value="animated_story">Animated story</option>
+                <option value="explainer">Explainer</option>
+                <option value="logo_reveal">Logo reveal</option>
+                <option value="ambient_music">Ambient / music</option>
+                <option value="smoke_test">Smoke test</option>
+              </select>
+            </label>
+            <label>
+              Duration
+              <input name="target_duration_seconds" type="number" min="4" value="20" />
+            </label>
+            <label>
+              Aspect
+              <select name="aspect_ratio">
+                <option>16:9</option>
+                <option>9:16</option>
+                <option>1:1</option>
+                <option>3:2</option>
+              </select>
+            </label>
+            <button class="primary" type="submit">Create Managed Project</button>
+          </form>
+        </section>
+
+        <section class="band">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">Create</p>
+              <h3>Choose a Project Type</h3>
+            </div>
+          </div>
+          <div id="typeCatalog" class="type-catalog"></div>
+        </section>
+
+        <section class="band">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">Intake</p>
+              <h3>New Project Details</h3>
+            </div>
+            <div id="selectedType" class="selected-type">No type selected</div>
+          </div>
+          <form id="projectForm" class="intake-grid">
+            <label>
+              Name
+              <input name="name" required value="Animated Website Story" />
+            </label>
+            <label>
+              Video type
+              <select name="video_type">
+                <option value="product_promo">Product / promo</option>
+                <option value="app_demo">App demo</option>
+                <option value="animated_story">Animated story</option>
+                <option value="explainer">Explainer</option>
+                <option value="logo_reveal">Logo reveal</option>
+                <option value="ambient_music">Ambient / music</option>
+                <option value="smoke_test">Smoke test</option>
+              </select>
+            </label>
+            <label>
+              Duration
+              <input name="target_duration_seconds" type="number" min="4" value="20" />
+            </label>
+            <label>
+              Aspect ratio
+              <select name="aspect_ratio">
+                <option>16:9</option>
+                <option>9:16</option>
+                <option>1:1</option>
+                <option>3:2</option>
+              </select>
+            </label>
+            <label class="wide">
+              Goal
+              <textarea name="goal">Create a short visual proof for a video idea.</textarea>
+            </label>
+            <label>
+              Audience
+              <input name="audience" value="Small business owners" />
+            </label>
+            <label>
+              Style
+              <input name="style" value="Cinematic, practical, modern" />
+            </label>
+            <label class="check">
+              <input name="voiceover" type="checkbox" checked />
+              Voiceover
+            </label>
+            <label class="wide">
+              Must include
+              <textarea name="must_include"></textarea>
+            </label>
+            <label class="wide">
+              Must avoid
+              <textarea name="must_avoid">Unreadable generated text, logos, watermarks</textarea>
+            </label>
+            <button class="primary" type="submit">Create Project</button>
+          </form>
+        </section>
+
+        <section class="band">
+          <div class="section-head">
+            <h3>Current Project</h3>
+            <button id="reloadProject">Reload Project</button>
+          </div>
+          <div id="projectDetail" class="project-detail empty">Select or create a project.</div>
+        </section>
+
+        <section class="band">
+          <div class="section-head">
+            <h3>Jobs</h3>
+            <button id="refreshJobs">Refresh Jobs</button>
+          </div>
+          <div id="jobs" class="jobs"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="/studio/app.js"></script>
+  </body>
+</html>

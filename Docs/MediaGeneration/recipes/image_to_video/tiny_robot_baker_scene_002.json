@@ -1,0 +1,7 @@
+{
+  "prompt": "Preserve the input image and character design. small sideways dolly. Animate the scene with subtle expressive motion matching this beat: The robot tries to do everything alone.. Warm cinematic family-friendly animation, stable composition, no text, no logos, no watermark.",
+  "duration": "4",
+  "aspect_ratio": "16:9",
+  "generate_audio": false,
+  "negative_prompt": "blur, distortion, warped character, unreadable text, logos, watermark, flicker, low quality"
+}

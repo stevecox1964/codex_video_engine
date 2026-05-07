@@ -1,0 +1,68 @@
+{
+  "project": "smart_websites_for_small_companies",
+  "aspect_ratio": "16:9",
+  "target_duration_seconds": 20,
+  "voiceover_style": "confident, practical, clear, tech-savvy but not corporate",
+  "scenes": [
+    {
+      "id": "scene_001",
+      "duration_seconds": 4,
+      "purpose": "hook",
+      "visual": "A small business owner sits at a desk in a modest office, looking at an outdated website on a laptop. The scene feels relatable and focused, not gloomy.",
+      "camera_motion": "slow push in",
+      "style_notes": "realistic cinematic lighting, clean composition, shallow depth of field, no readable text, no logos",
+      "voiceover": "Most small companies do not need a bigger team first.",
+      "on_screen_text": "Small business. Big expectations.",
+      "generation_mode": "text_to_image_then_image_to_video",
+      "status": "planned"
+    },
+    {
+      "id": "scene_002",
+      "duration_seconds": 4,
+      "purpose": "problem",
+      "visual": "A desktop workspace with missed customer messages, loose notes, an old contact form, and multiple browser tabs suggesting a disorganized customer flow.",
+      "camera_motion": "gentle overhead slide",
+      "style_notes": "organized enough to understand, realistic office details, no readable text, no logos",
+      "voiceover": "They need a website that helps customers take action.",
+      "on_screen_text": "Old websites lose leads.",
+      "generation_mode": "text_to_image_then_image_to_video",
+      "status": "planned"
+    },
+    {
+      "id": "scene_003",
+      "duration_seconds": 4,
+      "purpose": "solution",
+      "visual": "A clean modern website interface on a desktop monitor, with clear visual sections implying booking, contact, quote request, service cards, and chat support.",
+      "camera_motion": "smooth dolly across screen",
+      "style_notes": "premium but practical UI, modern monitor, soft reflections, avoid readable UI copy, no logos",
+      "voiceover": "A smart website answers questions, captures leads, books appointments, and builds trust.",
+      "on_screen_text": "Answer. Capture. Book. Grow.",
+      "generation_mode": "text_to_image_then_image_to_video",
+      "status": "planned"
+    },
+    {
+      "id": "scene_004",
+      "duration_seconds": 4,
+      "purpose": "benefit",
+      "visual": "The same small business owner checks a clean dashboard on a tablet or laptop and sees new customer inquiries represented by simple visual cards.",
+      "camera_motion": "slow reveal",
+      "style_notes": "optimistic, calm, realistic, warm practical lighting, no readable text, no logos",
+      "voiceover": "It works while the owner is busy doing the real work.",
+      "on_screen_text": "Your site should work for you.",
+      "generation_mode": "text_to_image_then_image_to_video",
+      "status": "planned"
+    },
+    {
+      "id": "scene_005",
+      "duration_seconds": 4,
+      "purpose": "call_to_action",
+      "visual": "A polished modern small-business website glows on a monitor in a clean office. The composition feels confident, useful, and ready to launch.",
+      "camera_motion": "slow cinematic push in",
+      "style_notes": "crisp realistic tech-business look, restrained glow, sharp edges, no readable text, no logos",
+      "voiceover": "For a small company, a smart website is not decoration. It is infrastructure.",
+      "on_screen_text": "Smart websites for serious small businesses.",
+      "generation_mode": "text_to_image_then_image_to_video",
+      "status": "planned"
+    }
+  ]
+}

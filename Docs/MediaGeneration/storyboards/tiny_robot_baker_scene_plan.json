@@ -1,0 +1,75 @@
+{
+  "project": "tiny_robot_baker",
+  "video_type": "animated_story",
+  "aspect_ratio": "16:9",
+  "target_duration_seconds": 20,
+  "character_continuity": "Tiny friendly robot baker with expressive eyes, small metal body, chef hat, and gentle helpful personality.",
+  "setting_continuity": "Warm cozy bakery with golden morning light, flour, copper pans, wood counters, and family-friendly charm.",
+  "scenes": [
+    {
+      "id": "scene_001",
+      "duration_seconds": 4,
+      "purpose": "setup",
+      "story_beat": "A tiny robot prepares a cozy bakery before sunrise.",
+      "visual": "A tiny friendly robot baker polishes a mixing bowl in a warm cozy bakery before sunrise, flour bags and copper pans around it.",
+      "camera_motion": "slow gentle push in",
+      "style_notes": "warm cinematic 3D animation, soft golden light, charming family friendly tone, consistent tiny robot character, no text, no logos",
+      "voiceover": "Before sunrise, a tiny robot baker wanted to make the perfect cake.",
+      "on_screen_text": "",
+      "generation_mode": "text_to_image_then_image_to_video",
+      "status": "planned"
+    },
+    {
+      "id": "scene_002",
+      "duration_seconds": 4,
+      "purpose": "conflict",
+      "story_beat": "The robot tries to do everything alone.",
+      "visual": "The tiny robot carefully stacks ingredients, spins a whisk, and tries to manage too many baking tasks at once.",
+      "camera_motion": "small sideways dolly",
+      "style_notes": "warm cinematic 3D animation, playful tension, consistent robot design, no text, no logos",
+      "voiceover": "It measured, mixed, and rushed, certain it could do everything alone.",
+      "on_screen_text": "",
+      "generation_mode": "text_to_image_then_image_to_video",
+      "status": "planned"
+    },
+    {
+      "id": "scene_003",
+      "duration_seconds": 4,
+      "purpose": "turn",
+      "story_beat": "A small baking mishap creates a mess.",
+      "visual": "A puff of flour bursts into the air as the tiny robot watches a wobbly cake tilt on the counter.",
+      "camera_motion": "quick gentle reveal",
+      "style_notes": "funny but gentle, warm cinematic 3D animation, expressive robot eyes, no text, no logos",
+      "voiceover": "Then one little wobble turned the whole bakery cloudy with flour.",
+      "on_screen_text": "",
+      "generation_mode": "text_to_image_then_image_to_video",
+      "status": "planned"
+    },
+    {
+      "id": "scene_004",
+      "duration_seconds": 4,
+      "purpose": "resolution",
+      "story_beat": "The baker helps and teamwork saves the cake.",
+      "visual": "A kind human baker kneels beside the tiny robot, and together they decorate the cake with simple frosting swirls.",
+      "camera_motion": "slow warm arc",
+      "style_notes": "cooperative, kind, warm cinematic 3D animation, consistent robot character, no text, no logos",
+      "voiceover": "But with one helpful hand, the robot learned that teamwork made the cake better.",
+      "on_screen_text": "",
+      "generation_mode": "text_to_image_then_image_to_video",
+      "status": "planned"
+    },
+    {
+      "id": "scene_005",
+      "duration_seconds": 4,
+      "purpose": "ending",
+      "story_beat": "The customer loves the charming imperfect cake.",
+      "visual": "The tiny robot and baker present a charming slightly imperfect cake to a smiling customer in the glowing bakery.",
+      "camera_motion": "slow cinematic push in",
+      "style_notes": "happy ending, cozy warm 3D animation, gentle glow, consistent robot character, no text, no logos",
+      "voiceover": "The cake was not perfect, but everyone agreed it was made with heart.",
+      "on_screen_text": "",
+      "generation_mode": "text_to_image_then_image_to_video",
+      "status": "planned"
+    }
+  ]
+}

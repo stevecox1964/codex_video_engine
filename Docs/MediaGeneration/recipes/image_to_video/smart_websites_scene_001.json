@@ -1,0 +1,6 @@
+{
+  "prompt": "Preserve the input image exactly. Slow cinematic push in toward the small business owner and laptop. Add subtle natural motion: the owner blinks, shifts slightly, soft daylight moves gently across the desk, laptop screen glow remains stable. Professional realistic business-tech mood, no new text, no logos, no watermark.",
+  "duration": "4",
+  "generate_audio": false,
+  "negative_prompt": "blur, distortion, warped hands, unreadable text, extra logos, watermark, flicker, low quality"
+}

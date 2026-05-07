@@ -1,0 +1,6 @@
+{
+  "prompt": "Preserve the input image exactly. Gentle overhead camera slide across the messy small-company workspace. Add subtle motion to screen glow and paper shadows while keeping the composition stable. Practical business-tech mood, no new text, no logos, no watermark.",
+  "duration": "4",
+  "generate_audio": false,
+  "negative_prompt": "blur, distortion, unreadable text, extra logos, watermark, flicker, low quality"
+}

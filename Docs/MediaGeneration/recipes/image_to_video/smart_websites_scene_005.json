@@ -1,0 +1,6 @@
+{
+  "prompt": "Preserve the input image exactly. Slow cinematic push in on the polished small-business website glowing on the monitor. Add restrained monitor glow, soft reflections, and confident ready-to-launch atmosphere. Keep the frame clean, no readable text, no logos, no watermark.",
+  "duration": "4",
+  "generate_audio": false,
+  "negative_prompt": "blur, distortion, unreadable text, extra logos, watermark, flicker, low quality"
+}

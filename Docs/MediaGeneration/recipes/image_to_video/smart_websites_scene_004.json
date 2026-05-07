@@ -1,0 +1,6 @@
+{
+  "prompt": "Preserve the input image exactly. Slow reveal toward the small business owner checking the clean dashboard. Add natural blinking, small hand movement, gentle screen glow, and calm optimistic lighting. Keep dashboard cards abstract with no readable text, no logos, no watermark.",
+  "duration": "4",
+  "generate_audio": false,
+  "negative_prompt": "blur, distortion, warped hands, unreadable text, extra logos, watermark, flicker, low quality"
+}

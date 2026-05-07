@@ -1,0 +1,7 @@
+{
+  "prompt": "Preserve the input image and character design. slow gentle push in. Animate the scene with subtle expressive motion matching this beat: A tiny robot prepares a cozy bakery before sunrise.. Warm cinematic family-friendly animation, stable composition, no text, no logos, no watermark.",
+  "duration": "4",
+  "aspect_ratio": "16:9",
+  "generate_audio": false,
+  "negative_prompt": "blur, distortion, warped character, unreadable text, logos, watermark, flicker, low quality"
+}

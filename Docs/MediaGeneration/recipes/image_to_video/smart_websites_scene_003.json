@@ -1,0 +1,6 @@
+{
+  "prompt": "Preserve the input image exactly. Smooth dolly movement across the modern website interface on the monitor. Add subtle UI glow and clean reflections without creating readable words. Premium practical small-business technology mood, no logos, no watermark.",
+  "duration": "4",
+  "generate_audio": false,
+  "negative_prompt": "blur, distortion, unreadable text, extra logos, watermark, flicker, low quality"
+}
